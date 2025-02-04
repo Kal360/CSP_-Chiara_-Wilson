@@ -10,8 +10,11 @@
 
 num=4
 
-print(num)
+#print(num)
 
 num=1
 
-print(num)
+#print(num)
+
+pi=3.145926535
+print( f"{pi:.4f}")
