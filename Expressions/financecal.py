@@ -21,14 +21,14 @@ rentpercent= (rent/income)*100
 # calculate percent income of utilites (utilites/income *100) ( variable)
 utilpercent=(utilites/income)*100
 # calculate percent income of groceries (groceries/income *100) ( variable)
-groceriespercent=(groceries)
+groceriespercent=(groceries/income)*100
 # calculate percent income of transportation(transportation/income *100) ( variable)
-
+transportpercent=(transportation/income)*100
 # calculate percent income of spending(spending/income *100) ( variable)
-
+spendpercent=(spending/income)*100
 
 # Your utilites is $XX.XX which is XX% of your income. (Print)
-
+print("Your utilites is  ")
 # Your groceries is $XX.XX which is XX% of your income. (Print)
 
 # Your transportation is $XX.XX which is XX% of your income. (Print)
