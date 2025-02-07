@@ -28,13 +28,12 @@ transportpercent=(transportation/income)*100
 spendpercent=(spending/income)*100
 
 # Your utilites is $XX.XX which is XX% of your income. (Print)
-print("your utilites is",utilites, "which is %", utilpercent, "of your income. \n")
+print("Your utilites is",utilites, "which is %", utilpercent, "of your income. \n")
 # Your groceries is $XX.XX which is XX% of your income. (Print)
-print("your groceries is", groceries,"Which is ",groceriespercent, "of your income.\n")
+print("Your groceries is", groceries,"Which is ",groceriespercent, "of your income.\n")
 # Your transportation is $XX.XX which is XX% of your income. (Print)
 print("Your transportation is ", transportation," which is % ", transportpercent, " of your income.\n")
 # Your savings is $XX.XX which is XX% of your income. (print)
 print("Your savings are",savings,"which is 10%% of your income.\n")
 # Your spending is $XX.XX which is XX% of your income. (Print)
-
-print("Your spending is",spendpercent)
+print("Your spending is",spending,"Which is %",spendpercent,"of your income.\n")
