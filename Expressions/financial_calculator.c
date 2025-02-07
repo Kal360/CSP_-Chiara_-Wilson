@@ -1,5 +1,6 @@
 // Chiara,Wilson
 #include <stdio.h>
+#include <math.h>
 
 //print statement that welcomes my user and tells them what the program does
 
@@ -44,44 +45,53 @@ float prent,putilites,pgroceries,ptransportation,psavings, pexpenses;
 int main(void){
     printf("Hi, welcome to my financial calculator\n");
 
-printf(" How much money do you make each month?");
+printf(" How much money do you make each month?\n");
 
 scanf("%f",&income);
 
-printf("How much do you pay for rent?");
+printf("How much do you pay for rent?\n");
 
 scanf("%f",&rent);
 
-printf("How much do you pay for utilites?");
+printf("How much do you pay for utilites?\n");
 
 scanf("%f",&utilites);
 
-printf("How mcuh do you pay for groceries?");
+printf("How mcuh do you pay for groceries?\n");
 
 scanf("%f",&groceries);
 
-printf("How much do you pay for transportation?");
+printf("How much do you pay for transportation?\n");
 
 scanf("%f",&transportation);
-
-total= income-savings-expenses;
 
 expenses= rent+utilites+groceries+transportation;
 
 savings= income *.2;
+
+total= income-savings-expenses;
 
 printf(" Your monthly income is $%.2f\n",income);
 
 
 printf("Your monthly expenses are $%.2f\n",expenses);
 
-
-printf("Your monthly expenses are $%.2f\n",expenses);
-
 printf("Your monthly savings are $%.2f\n",savings);
 
-printf("You have $%.2f\n",total,"left for spending");
+printf("You have $%.2f\n",total );
 
+prent= rent/income*100;
 
+putilites= utilites/income*100;
+
+pgroceries= groceries/income*100;
+
+ptransportation= transportation/income*100;
+
+pexpenses=expenses/income*100;
+
+psavings=savings/income*100;
+
+printf("Your expenses are %.1f%% of your income.\n",pexpenses);
     return 0;
 } 
