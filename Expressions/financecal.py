@@ -11,7 +11,7 @@ utilites=float(input("How much do you spend on utilites?\n"))
 #ask user what their groceries is ( variable an input)
 groceries=float(input("How do you spend on groceries?\n"))
 #ask user what their transportation is ( variable an input)
-transportation=float(input(" How much do you spend transportation"))
+transportation=float(input(" How much do you spend transportation\n"))
 # calculate savings as 10% of income (income * .1)( variable)
 savings=income*0.1
 # calculate spending as income- savings-rent-utilites-groceries-transportaion ( variable)
@@ -28,11 +28,13 @@ transportpercent=(transportation/income)*100
 spendpercent=(spending/income)*100
 
 # Your utilites is $XX.XX which is XX% of your income. (Print)
-print("Your utilites is  ")
+print("your utilites is",utilpercent)
 # Your groceries is $XX.XX which is XX% of your income. (Print)
-
+print("your groceries is",groceriespercent)
 # Your transportation is $XX.XX which is XX% of your income. (Print)
-
+print("Your transportation is ",transportpercent)
 # Your savings is $XX.XX which is XX% of your income. (print)
-
+print("Your savings are",savings)
 # Your spending is $XX.XX which is XX% of your income. (Print)
+
+print("Your spending is",spendpercent)

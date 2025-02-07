@@ -4,7 +4,7 @@
 //print statement that welcomes my user and tells them what the program does
 
 //ask user what their income is ( variable an input)
-
+float income,rent,utilites,groceries,transportation,savings,expenses,spendings,toal;
 //ask user what their rent is ( variable an input)
 
 //#ask user what their utilites is ( variable an input)
@@ -38,6 +38,30 @@
 
 // Your spending is $XX.XX which is XX% of your income. (Print)
 int main(void){
-    printf("hello world");
+    printf("Hi, welcome to my financial calculator\n");
+
+printf(" How much money do you make each month?");
+
+scanf("%f",&income);
+
+printf("How much do you pay for rent?");
+
+scanf("%f",&rent);
+
+printf("How much do you pay for utilites?");
+
+scanf("%f",&utilites);
+
+printf("How mcuh do you pay for groceries?");
+
+scanf("%f",&groceries);
+
+printf("How much do you pay for transportation?");
+
+scanf("%f",&transportation);
+
+expenses= rent+utilites+groceries+transportation;
+
+
     return 0;
 } 
