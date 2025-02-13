@@ -1,0 +1,1 @@
+name= input(" Please type in the name of  one famous person")
