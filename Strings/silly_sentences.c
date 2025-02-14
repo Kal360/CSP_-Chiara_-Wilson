@@ -19,7 +19,7 @@ printf("This program creates a silly story based on the words you type into the 
 // Ask user for words ( print satement with a question with a scanf to set to variable) 
 //( in c we need to tell the user that they can only type 1 word.)
 
-printf("Please type in the name of one famous person.\n");
+printf("Please type in the name of one person.\n");
 scanf("%s",name);
 printf(" Please type in a color\n ");
 scanf("%s",color);
