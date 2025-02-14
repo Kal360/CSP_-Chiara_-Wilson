@@ -30,23 +30,5 @@ scanf("%s",adjective);
 printf(" I pinky promise I will not %s %s while staring intently at a %s %s",action,color,adjective,name);
 // print out story with the variables inserted (" welcome %s to my program",name)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 } 
