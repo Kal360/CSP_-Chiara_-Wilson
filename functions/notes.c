@@ -8,14 +8,14 @@ return numOne+numTwo;
 
 
 }
-const char* word(type){
-    char choice[50];
-    printf(" Please give me a %s:\n",type);
-    scanf("%s",choice);
-    return choice;
+
+void due(char assignment[50], char day[20]){
+printf("The %s assignment is due %s\n",assignment,day);
+
+
+
+
 }
-
-
 
 
 int main(void){
@@ -25,6 +25,8 @@ int main(void){
  //add(8,1);
  //add(72,5);
  //printf("%d",add(72,5));
-
+due(" Functions notes", "Today");
+due(" Hello world Update", "Tommorow");
+due(" Finnacial calc update", "Tommorow");
     return 0;
 } 
