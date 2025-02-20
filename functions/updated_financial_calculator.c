@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <math.h>
 
+
+int money( float cost, float income, char type[]){
+
+
+
+}
 //print statement that welcomes my user and tells them what the program does
 
 //ask user what their income is ( variable an input)
@@ -42,6 +48,11 @@ float prent,putilites,pgroceries,ptransportation,psavings, pexpenses;
 // Your savings is $XX.XX which is XX% of your income. (print)
 
 // Your spending is $XX.XX which is XX% of your income. (Print)
+
+
+
+
+
 int main(void){
     printf("Hi, welcome to my financial calculator\n");
 
@@ -71,15 +82,6 @@ savings= income *.2;
 
 total= income-savings-expenses;
 
-printf(" Your monthly income is $%.2f\n",income);
-
-
-printf("Your monthly expenses are $%.2f\n",expenses);
-
-printf("Your monthly savings are $%.2f\n",savings);
-
-printf("You have $%.2f\n",total );
-
 prent= rent/income*100;
 
 putilites= utilites/income*100;
@@ -91,6 +93,15 @@ ptransportation= transportation/income*100;
 pexpenses=expenses/income*100;
 
 psavings=savings/income*100;
+
+printf(" Your monthly income is $%.2f\n",income);
+
+
+printf("Your monthly expenses are $%.2f\n" "Which is %.1f%% of your income\n",expenses,pexpenses);
+
+printf("Your monthly savings are $%.2f\n" "which is %.1f%% of your income\n",savings,psavings);
+
+printf("You have $%.2f\n",total );
 
 printf("Your expenses are %.1f%% of your income.\n",pexpenses);
     return 0;
