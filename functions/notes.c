@@ -27,6 +27,6 @@ int main(void){
  //printf("%d",add(72,5));
 due(" Functions notes", "Today");
 due(" Hello world Update", "Tommorow");
-due(" Finnacial calc update", "Tommorow");
+due(" Financial calc update", "Tommorow");
     return 0;
 } 

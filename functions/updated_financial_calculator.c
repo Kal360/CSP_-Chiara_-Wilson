@@ -5,7 +5,16 @@
 
 int money( float cost, float income, char type[]){
 
+     float prent= cost/income*100;
 
+     printf("Your {type} is %f which is %f  of your income",prent,income);
+
+}
+
+
+
+void stuff( char thing[20]){
+ printf(" What is your %s ?\n",thing);
 
 }
 //print statement that welcomes my user and tells them what the program does
@@ -54,28 +63,17 @@ float prent,putilites,pgroceries,ptransportation,psavings, pexpenses;
 
 
 int main(void){
-    printf("Hi, welcome to my financial calculator\n");
+    stuff("income");
+    scanf("%f",&income);
 
-printf(" How much money do you make each month?\n");
-
-scanf("%f",&income);
-
-printf("How much do you pay for rent?\n");
-
-scanf("%f",&rent);
-
-printf("How much do you pay for utilites?\n");
-
-scanf("%f",&utilites);
-
-printf("How mcuh do you pay for groceries?\n");
-
-scanf("%f",&groceries);
-
-printf("How much do you pay for transportation?\n");
-
-scanf("%f",&transportation);
-
+    stuff("rent");
+    scanf("%f",&rent);
+    stuff("utilites");
+    scanf("%f",&utilites);
+    stuff("groceries");
+    scanf("%f",&groceries);
+    stuff("transportation");
+    scanf("%f",&transportation);
 expenses= rent+utilites+groceries+transportation;
 
 savings= income *.2;
@@ -94,12 +92,9 @@ pexpenses=expenses/income*100;
 
 psavings=savings/income*100;
 
-printf(" Your monthly income is $%.2f\n",income);
+printf("Your expenses are %.1f%%  which is $%.2f%%  of your income.\n",expenses,pexpenses);
 
-
-printf("Your monthly expenses are $%.2f\n" "Which is %.1f%% of your income\n",expenses,pexpenses);
-
-printf("Your monthly savings are $%.2f\n" "which is %.1f%% of your income\n",savings,psavings);
+printf("Your savings  is  %.1f%%  which is $%.2f%%  of your income.\n",savings,psavings);
 
 printf("You have $%.2f\n",total );
 
