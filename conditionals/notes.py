@@ -23,7 +23,7 @@ if name == "Wilson":# <= this is a condition
 else:#  if the boolean is false, the else statement happens
     print(f"Hello")
 #What kind of statement do you use if you have more than 2 needed outcomes?
-num= int(input(" How many cookies are there?\n"))
+num= int(input(" How many cookies are there:\n"))
 # computers read things top to bottom
 # more specific on top less specific on lower
 if num == 0:#<= if always starts the conditional
@@ -45,10 +45,10 @@ else: #<= else always ends the comnditional
 #=== * Does not exist in python
 #! Not
 #What are the 3 logical operators?
-if num <10 and num >5:# And means both booleans must be true
+if num <10 and num >5: # And means both booleans must be true
     print("This is a big single digit number")
-elif num <10 or >5:# Or menas one has to be true
-     print(" This is  a single digit number")
+elif num <10 or num >5: #Or menas one has to be true
+    print(" This is  a single digit number")
 elif not num < 10: # Not changes to check if false
     print(" This is not a single digit number")
 #What are logical operators for?
@@ -58,9 +58,14 @@ elif not num < 10: # Not changes to check if false
 if num <10:
     if num==8:
         print(" this prints at 8")
-        print(" The number is less than 10")
     else:
-        print(" the number is bigger tha ten")
+        if num ==4: 
+            print("There are only enough cookies for me... sorry")
+        else:
+            print(" The number is less than 10")
+else:
+    print(" the number is bigger tha ten")
+    
 #How do you write an if statement in C?
 #How do you write else statements in C?
 #How do you write elif/ else if statements in C?
