@@ -2,8 +2,8 @@
 num=int(input(" How old are you ? \n"))
 if num >=18:
     print(" You are old enough to vote,drive,get a permit and to go to school! \n")
-elif num<18:
-    print(" You are not old enough to vote. \n")
+elif num<18==16:
+    print(" You are old enough to drive,go to school but not to vote. \n")
 
 elif num >= 16:
     print(" You are old enough to drive,go to school but not to vote. \n")
