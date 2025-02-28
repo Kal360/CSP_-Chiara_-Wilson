@@ -14,4 +14,4 @@ elif num <15 or num ==3:
     print(" You are old enough to go to school but not to get a permit,drive, or vote.\n")
 
 else: 
-    print(" You are either very young or something went wrong in my code.\n")
+    print(" You are either very young or something went wrong in my code lol.\n")
