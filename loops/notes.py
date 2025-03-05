@@ -46,9 +46,9 @@ goose=random.randint(1,20)
 x=1# variable to keep count of iterartion
 while x <=20:
 
-if x == goose:
-    print("Goose!")
-    break
-else: 
-    print("Duck")
-    x+=1
+    if x == goose:
+        print("Goose!")
+        break
+    else: 
+        print("Duck")
+        x+=1
