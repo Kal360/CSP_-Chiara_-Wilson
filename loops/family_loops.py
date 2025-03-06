@@ -1,4 +1,4 @@
 # Chiara Wilson, Family loops
-fam=["Chiara","Ariana","Wanda","Adam","Loki"]
-for fam in fam:
+fams=["Chiara","Ariana","Wanda","Adam","Loki"]
+for fam in fams:
     print("Hello",fam,",How are you?")
