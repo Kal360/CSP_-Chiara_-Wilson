@@ -2,7 +2,10 @@
 #include <stdio.h>
 #include <math.h>
 
-
+void stuff( char thing[20]){
+    printf(" What is your %s ?\n",thing);
+   
+   }
 int money( float cost, float income, char type[20]){
 
      float pincome= (cost/income)*100;
@@ -13,10 +16,7 @@ int money( float cost, float income, char type[20]){
 
 
 
-void stuff( char thing[20]){
- printf(" What is your %s ?\n",thing);
 
-}
 //print statement that welcomes my user and tells them what the program does
 
 //ask user what their income is ( variable an input)
@@ -63,6 +63,7 @@ float prent,putilites,pgroceries,ptransportation,psavings, pexpenses;
 
 
 int main(void){
+    
     stuff("income");
     scanf("%f",&income);
     stuff("rent");
@@ -73,12 +74,11 @@ int main(void){
     scanf("%f",&groceries);
     stuff("transportation");
     scanf("%f",&transportation);
-    money(income,income,"income");
-    money(rent,income,"rent");
- money(utilites,income,"Utilites");
- money(groceries,income,"Groceries");
- money(transportation,income,"Transportation");
-
+    money(income,income,"income\n");
+    money(rent,income,"rent\n");
+ money(utilites,income,"Utilites\n");
+ money(groceries,income,"Groceries\n");
+ money(transportation,income,"Transportation\n");
 
 
     return 0;
