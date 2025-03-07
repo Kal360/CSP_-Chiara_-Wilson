@@ -3,11 +3,11 @@
 #include <math.h>
 
 
-int money( float cost, float income, char type[]){
+int money( float cost, float income, char type[20]){
 
-     float prent= cost/income*100;
+     float pincome= (cost/income)*100;
 
-     printf("Your {type} is %f which is %f  of your income",prent,income);
+     printf("Your %s is $%.2f which is %.2f%%  of your income",type,cost,pincome);
 
 }
 
@@ -65,7 +65,6 @@ float prent,putilites,pgroceries,ptransportation,psavings, pexpenses;
 int main(void){
     stuff("income");
     scanf("%f",&income);
-
     stuff("rent");
     scanf("%f",&rent);
     stuff("utilites");
@@ -74,30 +73,13 @@ int main(void){
     scanf("%f",&groceries);
     stuff("transportation");
     scanf("%f",&transportation);
-expenses= rent+utilites+groceries+transportation;
+    money(income,income,"income");
+    money(rent,income,"rent");
+ money(utilites,income,"Utilites");
+ money(groceries,income,"Groceries");
+ money(transportation,income,"Transportation");
 
-savings= income *.2;
 
-total= income-savings-expenses;
 
-prent= rent/income*100;
-
-putilites= utilites/income*100;
-
-pgroceries= groceries/income*100;
-
-ptransportation= transportation/income*100;
-
-pexpenses=expenses/income*100;
-
-psavings=savings/income*100;
-
-printf("Your expenses are %.1f%%  which is $%.2f%%  of your income.\n",expenses,pexpenses);
-
-printf("Your savings  is  %.1f%%  which is $%.2f%%  of your income.\n",savings,psavings);
-
-printf("You have $%.2f\n",total );
-
-printf("Your expenses are %.1f%% of your income.\n",pexpenses);
     return 0;
 } 
