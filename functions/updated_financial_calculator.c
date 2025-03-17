@@ -10,7 +10,7 @@ int money( float cost, float income, char type[20]){
 
      float pincome= (cost/income)*100;
 
-     printf("Your %s is $%.2f which is %.2f%%  of your income",type,cost,pincome);
+     printf("Your %s is $%.2f which is %.2f%%  of your income.\n",type,cost,pincome);
 
 }
 
