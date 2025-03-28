@@ -1,4 +1,4 @@
-flavor= input("What kind of cake would you like to make?\n 1 a vanilla cake\n 2 a Chocolate cake\n 3 A strawberry cake\n")
+flavor= input("What kind of cake would you like to make?\n (1 a vanilla cake\n (2 a Chocolate cake\n (3 A strawberry cake\n")
 if flavor != "1" and flavor != "2" and flavor != "3":
     print("We don't have the ingredients to make that type of cake.\n")
 elif flavor == 1:
