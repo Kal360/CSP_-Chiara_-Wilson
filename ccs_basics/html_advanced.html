@@ -3,6 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <title> HTML ADVANCED NOTES</title>
+        <!--This is where CSS goes-->
+        <style>
+            *{
+                background-color: black;
+                color: rgb(154,22,36);
+            }
+            p{
+                color:#00FFFF;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #lists{color:gray;
+             font: weight 25px;
+            }
+            .example{
+                color:red;
+            }
+            #img-src{
+               font-size:8px; 
+               color:#00FFFF;
+            }
+
+            #img-src{
+                width:25%;
+               
+            }
+
+            
+        </style>
     </head>
     <body>
         <div id="Intro">
@@ -10,14 +39,15 @@
             <p> Nested tags are tags that exist inside of another tag. Some tags require nesting and others don't.</p>
 
         </div>
-            <p> an atribute is further instructions for our computer given inside of the opeing. tag. such as the id we give our div OR the ncharset we use inside of the meta tag.</p>
+            <p> an <span id="" further instructions for our computer given inside of the opeing. tag. such as the id we give our div OR the ncharset we use inside of the meta tag.</p>
             <div id ="lists">
-                <p> Lits are just like lists you would make in real life they require nesting li tags insde of other tags. </p>
-                <ol><!-- ORDERED LIST-->
+                <p> Lists are just like lists you would make in real life they require nesting li tags insde of other tags. </p>
+                <ol class="example">
+                    <!-- ORDERED LIST-->
                     <li>this is item 1</li>
                     <li> Another item </li>
-
                 </ol>
+                
                 <ul
                     style="list-style-type:square" ><!-- Unordered list-->
                     <li> Way of Kings</li>
@@ -32,7 +62,7 @@
                 <img src="https://th.bing.com/th/id/OIP.3Ft6tObdA45cjl3zv5P94wHaFv?w=196&h=152&c=7&r=0&o=5&pid=1.7 "
                 alt="Katara waterbending"
                 height="300px">
-                <small><small><dt> IMAGE FROM: wikipedia</dt></small></small>
+                <dt> IMAGE FROM: wikipedia</dt>
                 <dd> Preachy crybaby</dd>
                 <a href="https://www.w3schools.com/TAGS/ref_byfunc.asp" target_blank>To learn about links </a>
 
