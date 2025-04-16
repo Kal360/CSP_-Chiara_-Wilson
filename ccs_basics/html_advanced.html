@@ -1,81 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title> HTML ADVANCED NOTES</title>
-        <!--This is where CSS goes-->
+        <meta charset = "UTF-8">
+        <title>HTML Advanced Notes</title>
+        <!--This is where the CSS goes-->
         <style>
             *{
                 background-color: black;
                 color: rgb(154,22,36);
             }
             p{
-                color:#00FFFF;
+                color: #00FFFF;
                 text-align: center;
                 font-family: Georgia, 'Times New Roman', Times, serif;
             }
-            #lists{color:gray;
-             font: weight 25px;
+            li{
+                color: limegreen;
             }
             .example{
-                color:red;
+                color: red;
             }
             #img-src{
-               font-size:8px; 
-               color:#00FFFF;
+                font-size: 8px;
+                color: rgb(139, 139, 139);
+                text-align: left;
             }
-
-            #img-src{
-                width:25%;
-               
+            img{
+                width: 20%;
             }
-
-            
         </style>
     </head>
-    <body>
-        <div id="Intro">
-            <h1> HTML ADVANCED NOTES</h1>
-            <p> Nested tags are tags that exist inside of another tag. Some tags require nesting and others don't.</p>
-
-        </div>
-            <p> an <span id="" further instructions for our computer given inside of the opeing. tag. such as the id we give our div OR the ncharset we use inside of the meta tag.</p>
-            <div id ="lists">
-                <p> Lists are just like lists you would make in real life they require nesting li tags insde of other tags. </p>
+        <body>
+            <div id="intro">
+                <h1>Cascading Style Sheets</h1>
+                <p>A nested tag is a tag that exists inside another tag. Some tags require nesting while others shouldn't be nested.</p>
+                <p>An atribute is further instructions for the computer given inside of the opening tag. Such as the id we gave our div OR the charset we used inside of the meta tag.</p>
+            </div>
+            <div id = "lists">
+                <p>Lists are just like lists made in real life. They requrie nesting li tags inside of other tags.</p>
                 <ol class="example">
-                    <!-- ORDERED LIST-->
-                    <li>this is item 1</li>
-                    <li> Another item </li>
+                    <li>Item</li>
+                    <li>Item</li>
                 </ol>
-                
-                <ul
-                    style="list-style-type:square" ><!-- Unordered list-->
-                    <li> Way of Kings</li>
-                    <li> Tress of the emerald sea</li>
-                    <li> Mistborn</li>
-            </ul>
-            <dl><!-- Detail/ description list-->
-                <dt> Aang </dt><!-- detail title-->
-                <dd> last airbender <a href="https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender"target="_blank">Avatar</a>
-                      kinda silly. easily distracted.</dd>
-                <dt> Katara</dt>
-                <img src="https://th.bing.com/th/id/OIP.3Ft6tObdA45cjl3zv5P94wHaFv?w=196&h=152&c=7&r=0&o=5&pid=1.7 "
-                alt="Katara waterbending"
-                height="300px">
-                <dt> IMAGE FROM: wikipedia</dt>
-                <dd> Preachy crybaby</dd>
-                <a href="https://www.w3schools.com/TAGS/ref_byfunc.asp" target_blank>To learn about links </a>
-
-            </dl>
+                <ul>
+                    <li>Way of Kings</li>
+                    <li>Skyward</li>
+                    <li>Mistborn</li>
+                    <li>Reckoners</li>
+                </ul>
+                <dl>
+                    <dt>Aang</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender" target="_blank">Avatar</a>, Last Airbender. Kinda silly, easily distracted.</dd>
+                    <dt>Katara</dt>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png" alt="Katara Waterbending">
+                    <dt id="img-src">Image from: Wikipedia</dt>
+                    <dd>Water bender. Preachy crybaby who makes speaches about hope all the time.</dd>
+                </dl>
+                <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">To learn about links</a>
             </div>
-            <div id = "images">
-                <img src="https://th.bing.com/th/id/OIP.CjW4Na806UbDvd0OuJRBeQAAAA?rs=1&pid=ImgDetMain"
-                alt="Aang Bartering"
-                height="300px">
-                <p> Image from :Medium</p>
-
-
+            <div id ="images">
+                <img src="https://miro.medium.com/v2/resize:fit:1200/0*3xTjr7rYOjGYjKqi.jpg" alt="Aang Bartering">
+                <p id="img-src">Image from: Medium</p>
             </div>
-        
-    </body>
+        </body>
 </html>
