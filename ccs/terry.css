@@ -6,6 +6,8 @@
     font-style: normal;
 }
 
+
+
 #title{
     text-align: center;
 }
@@ -22,8 +24,31 @@ img{
     padding:30px;
     margin:10px;
     color: #F4F7C4;
+    
 }
+#box{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+
 #box2{
+    background-color: hsl(222, 81%, 16%);
+    height:300px;
+    width: 300px; 
+    padding:30px;
+    margin:10px;
+    color: #F4F7C4;
+}
+#box2{display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items:center}
+
+#box3{
     background-color: hsl(222, 81%, 16%);
     height:320px;
     width: 320px; 
@@ -31,4 +56,5 @@ img{
     margin:10px;
     color: #F4F7C4;
 }
-#img{}
+img {
+    margin:25px; }
