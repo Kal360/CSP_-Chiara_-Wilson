@@ -26,7 +26,7 @@ img{
     color: #F4F7C4;
     
 }
-#box{
+#boxes{
     display:flex;
     gap:10px;
     justify-content:center;
@@ -46,7 +46,7 @@ img{
 #box2{display:flex;
     gap:10px;
     justify-content:center;
-    align-items:center}
+    align-items: center;}
 
 #box3{
     background-color: hsl(222, 81%, 16%);
@@ -58,3 +58,9 @@ img{
 }
 img {
     margin:25px; }
+#img{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items: center;
+}

@@ -13,8 +13,8 @@ let images = ["https://www.mountain-forecast.com/system/images/24500/large/Mount
 }
 
 function hello(){
-    let name = window.prompt("What is your name?","Kim Dokja") = "Hello !"+name+ "!"
-    document.getElementById("title").innerHTML 
+    let name = window.prompt("What is your name?","Kim Dokja") 
+    document.getElementById("title").innerHTML = "Hello!"+name+ "!"
 }
 
 function hover(){
