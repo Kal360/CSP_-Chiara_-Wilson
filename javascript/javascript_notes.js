@@ -13,7 +13,8 @@ let images = ["https://www.mountain-forecast.com/system/images/24500/large/Mount
 }
 
 function hello(){
-    document.getElementById("title").innerHTML = "Hello World!"
+    let name = window.prompt("What is your name?","Kim Dokja") = "Hello !"+name+ "!"
+    document.getElementById("title").innerHTML 
 }
 
 function hover(){
@@ -25,11 +26,13 @@ function leave(){
 }
 
 let current = document.getElementById("meme").style.display
- function hidden(){
-     if (current === "none"){
-        document.getElementById("meme").style.display = "block" 
-     }else{
-         document.getElementById("meme").style.display = "none"
+
+       function show()  {
+        document.getElementById("lost").style.display="block"
+       }
+     
+     function pop(){
+        window.alert("Really don't click that!")
      }
      
- }
+ 
