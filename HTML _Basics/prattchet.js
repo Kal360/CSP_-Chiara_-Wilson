@@ -1,9 +1,9 @@
 function view(){
-    if(document.getElementById("Hidden Image").style.display == "block"){
-      document.getElementById("Hidden image").style.display = "none"
+    if(document.getElementById("more").style.display == "block"){
+      document.getElementById("more").style.display = "none"
       document.getElementById("shw").innerHTML = "Show More"
     }else{
-      document.getElementById("Hidden image").style.display = "block"
+      document.getElementById("more").style.display = "block"
       document.getElementById("shw").innerHTML = "Show Less"
     }
 }
