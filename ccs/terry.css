@@ -31,13 +31,12 @@ img{
     color: #F4F7C4;
     
 }
-#boxes{
-    display:flex;
+#boxes{ display:flex;
     gap:10px;
     justify-content:center;
-    align-items:center;
-    
-}
+    align-items: center;}
+
+
 
 
 

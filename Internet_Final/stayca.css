@@ -14,3 +14,29 @@ body{
     justify-content:center;
     align-items: center;
 }
+#box1{
+    margin: 10px;
+  width: 50%;
+    padding:10px;
+    
+}
+img{
+    width: 40%;
+}
+#snow{
+    display:flex;
+    gap:10px;
+    justify-content:flex-end;
+    align-items: flex-end;}
+
+#small{ font-size: 10px;
+
+}
+#small{
+    display:flex;
+    gap:10px;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+
