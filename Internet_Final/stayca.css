@@ -22,6 +22,7 @@ body{
 }
 img{
     width: 40%;
+
 }
 #snow{
     display:flex;
@@ -38,5 +39,22 @@ img{
     justify-content:flex-end;
     align-items: flex-end;
 }
+ol {
+    list-style: none;
+}
+
+ol li {
+    margin-bottom: 30px;
+}
+#list{
+    margin: 10px;
+  width: 30%;
+    padding:10px;
+}
+#hidden image{
+    display:none;
+    
+}
+
 
 
