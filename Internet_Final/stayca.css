@@ -13,7 +13,10 @@ body{
     gap:10px;
     justify-content:center;
     align-items: center;
-}
+    }
+
+
+
 #box1{
     margin: 10px;
   width: 50%;
@@ -54,6 +57,18 @@ ol li {
 #hidden image{
     display:none;
     
+}
+
+#he{
+    margin: 10px;
+    width: 30%;
+      padding:10px;
+}
+#inside{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items: center;
 }
 
 
