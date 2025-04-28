@@ -27,11 +27,6 @@ img{
     width: 40%;
 
 }
-#snow{
-    display:flex;
-    gap:10px;
-    justify-content:flex-end;
-    align-items: flex-end;}
 
 #small{ font-size: 10px;
 
@@ -77,6 +72,20 @@ ol li {
     justify-content:center;
     align-items: center;
 }
+
+#box1 {
+    display:grid;
+    grid-gap: 1rem;
+    grid-template-columns: ;
+}
+#container img {
+    width: 500px; 
+    height: auto;
+}
+
+
+    
+
 
 
 
