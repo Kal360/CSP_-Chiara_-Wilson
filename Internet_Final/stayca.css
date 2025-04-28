@@ -71,5 +71,13 @@ ol li {
     align-items: center;
 }
 
+#c{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items: center;
+}
+
+
 
 
