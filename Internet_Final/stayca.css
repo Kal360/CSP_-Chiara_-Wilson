@@ -16,8 +16,6 @@ body{
     align-items: center;
     }
 
-
-
 #box1{
     display:grid;
      grid-template-columns: 1fr 1fr 1fr;
@@ -51,24 +49,6 @@ ol {
 ol li {
     margin-bottom: 30px;
 }
-#list{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-   grid-column:4;
-}
-#b{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-}
-#bear{
-    grid-column:4;
-}
-#list{ grid-column:1;}
-
-
-#bear{width:550%;}
 
 #hidden image{
     display:none;
@@ -92,10 +72,7 @@ ol li {
     gap:10px;
     justify-content:center;
     align-items: center;
-}
-
-
-    
+}   
 
     #snow{
         display:grid;
@@ -114,6 +91,35 @@ ol li {
    #big{
     font-size: 10px;
    }
+   .main-container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-start;        
+    margin: 20px;                    
+  }
+  
+  .left-side {
+    flex: 0 0 45%;      
+    padding: 10px;
+  }
+  
+  .right-side {
+    flex: 0 0 45%;      
+    padding: 10px;
+    text-align: right;  
+  }
+  
+  .right-side img {
+    width: 100%;    
+    height: auto;
+  }
+ 
+  
+  
+  
+  
+  
+  
    
     
    
