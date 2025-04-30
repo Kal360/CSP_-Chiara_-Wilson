@@ -1,5 +1,7 @@
 body{
     font-family: Sono,monospace;
+    background-color: #BCD8D9;
+    color:#998E8E;
      
 }
 #title{
@@ -23,15 +25,22 @@ body{
     grid-column:3;
 }
 
-
-
-#winter{ width:300%}
+#rightContent {
+    grid-column: 3; 
+    display: grid;
+    grid-template-columns: 1fr;     
+    grid-template-rows: auto auto;   
+    justify-items: end;              
+                          
+  }
+  
+#winter{ width:150%}
 
 #small{ font-size: 10px;
 
 }
 
-#small{text-align: right;}
+
 ol {
     list-style: none;
 }
@@ -57,14 +66,8 @@ ol li {
     justify-content:center;
     align-items: center;
 }
-#inside{
-    display:flex;
-    gap:10px;
-    justify-content:flex-start;
-    align-items: flex-start;
-    margin-top: 5px;
-      
-}
+
+    
 #stuff{width:50%;}
 
 
