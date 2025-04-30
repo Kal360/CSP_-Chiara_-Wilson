@@ -22,26 +22,16 @@ body{
      
     grid-column:3;
 }
-img{
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
 
-}
-#winter{ width:400%}
+
+
+#winter{ width:300%}
 
 #small{ font-size: 10px;
 
 }
-#small{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
+
+#small{text-align: right;}
 ol {
     list-style: none;
 }
@@ -70,9 +60,13 @@ ol li {
 #inside{
     display:flex;
     gap:10px;
-    justify-content:center;
-    align-items: center;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-top: 5px;
+      
 }
+#stuff{width:50%;}
+
 
 #c{
     display:flex;
@@ -120,7 +114,7 @@ ol li {
     width: 100%;    
     height: auto;
   }
- 
+
   
   
   
