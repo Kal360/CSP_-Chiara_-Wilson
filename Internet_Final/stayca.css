@@ -23,6 +23,7 @@ body{
      grid-template-columns: 1fr 1fr 1fr;
      
     grid-column:3;
+    font-size: 35px ;
 }
 
 #rightContent {
@@ -43,6 +44,7 @@ body{
 
 ol {
     list-style: none;
+    font-size:32px;
 }
 
 ol li {
@@ -58,6 +60,7 @@ ol li {
     margin: 10px;
     width: 30%;
       padding:10px;
+      font-size:27px;
 }
 
 #more{
@@ -117,7 +120,15 @@ ol li {
     width: 100%;    
     height: auto;
   }
-h3{font-size:25px;}
+  h1{color:#152136;
+font-family:"Limelight",sans-serif;}
+h3{font-size:30px; color:#152136;}
+h4{font-size:30px;
+    color:#152136;}
+h2{font-size:30px;
+color:#152136;}
+h5{font-size:30px;
+    color:#152136;}
   
   
   
