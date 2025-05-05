@@ -16,7 +16,9 @@ body{
     gap:10px;
     justify-content:center;
     align-items: center;
+    
     }
+    #sunny{border-radius:15px;}
 
 #box1{
     display:grid;
@@ -53,6 +55,7 @@ ol li {
 
 #hidden image{
     display:none;
+    
     
 }
 
@@ -94,6 +97,7 @@ ol li {
     justify-content: flex-end;
     align-items: flex-end;
     gap:10px;
+    
    }
    #big{
     font-size: 10px;
@@ -119,9 +123,11 @@ ol li {
   .right-side img {
     width: 100%;    
     height: auto;
+    border-radius:15px;
   }
   h1{color:#152136;
-font-family:"Limelight",sans-serif;}
+font-family:"Limelight",sans-serif;
+font-size:50px;}
 h3{font-size:30px; color:#152136;
     font-family:"Limelight",sans-serif;}
 h4{font-size:30px;
@@ -133,7 +139,15 @@ font-family:"Limelight",sans-serif;}
 h5{font-size:30px;
     color:#152136;
     font-family:"Limelight",sans-serif;}
-
+    #shw{background-color:#152136;
+    color:#BCD8D9;
+    border-radius: 10px;
+    border:10px solid #998E8E;
+width:10%;}
+#stuff{border-radius:15px;}
+#winter{border-radius:15px;}
+#hidden-image{border-radius:15px
+}
 
   
   
